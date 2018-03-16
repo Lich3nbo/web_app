@@ -1,0 +1,37 @@
+#Home-header {
+  width: 100%;
+  height: 40px;
+  background: #E1122F;
+  color: white;
+  font-size: 14px;
+}
+.Home-left {
+  width: 60px;
+  text-align: center;
+  line-height: 40px;
+}
+.Home-right {
+  width: 40px;
+  text-align: center;
+  line-height: 40px;
+}
+.Home-middle {
+  width: 100%;
+  height: 100%;
+  line-height: 40px;
+  padding: 0 40px 0 60px;
+  position: relative;
+}
+.Home-middle i {
+  position: absolute;
+  top: 11px;
+  left: 65px;
+  color: #ccc;
+}
+.Home-middle input {
+  width: 100%;
+  height: 25px;
+  border: none;
+  border-radius: 10px;
+  text-indent: 25px;
+}

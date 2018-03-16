@@ -1,0 +1,38 @@
+#Home-Category {
+  width: 100%;
+  background: #fff;
+  padding-bottom: 5px;
+}
+#Home-Category .swiper-list div {
+  height: 220px;
+  background-size: 100% 100%;
+}
+#Home-Category .swiper-list .one {
+  background-image: url("https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1521195244878&di=03ed6ab3142c7d1ad7f6aa215aa02553&imgtype=0&src=http%3A%2F%2Fd.hiphotos.baidu.com%2Fzhidao%2Fpic%2Fitem%2F9345d688d43f879407215583d71b0ef41ad53a44.jpg");
+}
+#Home-Category .swiper-list .two {
+  background-image: url("https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1521195395092&di=ac394917c089e74f3ef5e6754b6eb7e7&imgtype=0&src=http%3A%2F%2Fpic36.nipic.com%2F20131209%2F7487939_011617689000_2.jpg");
+}
+#Home-Category .swiper-list .three {
+  background-image: url("https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1521195455520&di=1bb84868ed2092ecabfb40801df8fb20&imgtype=0&src=http%3A%2F%2Fpic.58pic.com%2F58pic%2F17%2F15%2F23%2F79X58PIC97Q_1024.jpg");
+}
+#Home-Category .dotList {
+  margin-top: 5px;
+  position: relative;
+}
+#Home-Category .dotList ul {
+  list-style: none;
+  text-align: center;
+  padding-left: 42%;
+}
+#Home-Category .dotList ul li {
+  height: 8px;
+  width: 8px;
+  border-radius: 4px;
+  margin: 0 5px;
+  background: #ccc;
+  float: left;
+}
+#Home-Category .dotList ul .current {
+  background: red;
+}

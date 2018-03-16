@@ -1,0 +1,50 @@
+# 循环
+ 添加 key 属性 提高效率 diff算法
+
+# 判断
+
+# 代码分离
+
+- 使用 es6 模块管理规范
+
+# props State
+- 实时监听 props 和 state 的值 一旦发生变化 就会更新组件
+- props 一般用于是父组件给子组件传递的数据
+- states 自身的属性发生变化
+
+# 智能组件和木偶组件
+- 分别存在 containers 和 components 两个文件夹中
+
+# 常用声明周期
+- componentDidMount(){} 注：ajax  setState
+    - 渲染完成
+- shouldComponentUpdata 注： 主用于性能优化 ， 
+    - 是否刷新组件
+- componentDidUpdata 注 ： 组件更新之后触发的事件，一般用于清空并更新数据。
+    - 组件更新完成
+    - 是否需要重新 ajax
+- componentWillUnmount 注 ： 组件在销毁前触发的事件，一般用于存储一些特殊信息，以及清理 setTimeout 事件等。
+    - 组件将要移除
+
+# 三 · 性能优化
+
+- todo-list-demo
+
+## 性能检测
+
+## TODO-List demo
+
+# 四. 路由 react-router 2.7.0
+ - 版本号一定要对啊
+
+# 五. Redux 
+## 管理多个状态共享的工具
+
+
+# 六 fetch（获取、提交数据，轻量，支持原生promise）  && Mock （假数据）
+- koa-body 1.6
+- mock listen(3000) 端口 
+- 通过代理实现  8080 - 3000 端口
+
+- 路径一定要他妈的 带 /  不然匹配不到
+

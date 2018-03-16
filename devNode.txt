@@ -1,0 +1,33 @@
+# 1.配置路由
+
+# 2. 公共父组件
+- headerd
+- footer
+- loading (加载中)
+
+
+# 3.首页
+
+** 注意点
+** 技巧
+- == null 就等于 undefined  也等于 null
+** 步骤
+- 3.1获取城市
+    - 从LoaclstoreRage 里面获取城市
+    - 将城市信息存储到 redux 中
+        - 1. 引用 redux 基本方法 bindActionCreators 
+        - 2. connect react 和 react 的连接
+        - 3. 把 action userinfo 的东西引入进来
+        - 4. 在导出规则  `export default connect()(App)`
+        - 5. connect 有两个参数 
+            -
+
+- 3.2 轮播图
+    - 获取轮播 index
+    - options 
+        - auto 属性
+        - callback :(index){} 每次滚动完后我要怎么样
+        - index 存起来 组件内部用 state
+
+- 3.3 广告
+    - 模拟数据 3000 端口 homead
